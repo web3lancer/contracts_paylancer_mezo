@@ -8,7 +8,7 @@
 import { ethers } from "hardhat";
 
 // Contract addresses on Mezo Testnet (from docs.md)
-const MEZO_TESTNET_CONTRACTS = {
+const MEZO_TESTNET_CONTRACT
   MUSD: "0x118917a40FAF1CD7a13dB0Ef56C86De7973Ac503",
   tBTC: "0x517f2982701695D4E52f1ECFBEf3ba31Df470161",
   Portal: "0x6978E3e11b8Bc34ea836C1706fC742aC4Cb6b0Db",
