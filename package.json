@@ -1,0 +1,20 @@
+{
+  "name": "mezo-contracts",
+  "version": "1.0.0",
+  "description": "Smart contract scripts for Mezo protocol integration",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network mezo_testnet",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network mezo_mainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.10.0"
+  }
+}
